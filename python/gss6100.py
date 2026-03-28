@@ -1,5 +1,8 @@
 # Send and receive commands via the USB interface
 
+import time
+import usb.core
+
 class GSS6100:
     VID = 0x0525
     PID = 0xA105
